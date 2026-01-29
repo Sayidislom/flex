@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: gray;
+}
+
+h1 {
+    margin-top: 2%;
+    text-align: center;
+    color: purple;
+    margin-bottom: 1%;
+}
+
+.papa {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 90px;
+    width: 530px;
+    margin: auto;
+    border: 10px solid purple;
+    gap: 30px;
+    padding: 10px;
+}
+
+.son {
+    border-radius: 10px;
+    background-color: white;
+    border: 5px solid white;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+}
+
+.two {
+    display: flex;
+    justify-content: end;
+}
+
+.three {
+    display: flex;
+    justify-content: center;
+}
+
+.four {
+    display: flex;
+    justify-content: space-between;
+}
+
+.five {
+    display: flex;
+    justify-content: space-around;
+}
+
+.six {
+    display: flex;
+    justify-content: space-evenly;
+}
